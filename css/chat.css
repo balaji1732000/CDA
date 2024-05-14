@@ -12,9 +12,9 @@
       flex-flow: column wrap;
       justify-content: space-between;
       width: 100%;
-      max-width: 867px;
+      max-width: 1040px;
       margin: 25px 10px;
-      height: calc(100% - 50px);
+      height: calc(100% - 400px);
       border: var(--border);
       border-radius: 5px;
       background: var(--msger-bg);
@@ -26,13 +26,13 @@
       justify-content: space-between;
       padding: 10px;
       border-bottom: var(--border);
-      background: #eee;
-      color: #666;
+      background: #3866c1;
+      color: #fffefe;
     }
   
     .msger-chat {
       flex: 1;
-      overflow-y: auto;
+      overflow-y: scroll;
       padding: 10px;
     }
     .msger-chat::-webkit-scrollbar {
@@ -64,7 +64,7 @@
     }
     .msg-bubble {
       max-width: 700px;
-      padding: 15px;
+      padding: 20px;
       border-radius: 15px;
       background: var(--left-msg-bg);
     }
